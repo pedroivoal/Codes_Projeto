@@ -1,4 +1,4 @@
-## Projeto de Co-Design de Aplicativos
+# Projeto de Co-Design de Aplicativos
 ## App Grin.go
 ## Autores: 
 - Alexia Pires
