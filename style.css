@@ -17,6 +17,9 @@
     margin: 10px; 
 }
 
+.espaçobetween {
+    justify-content: space-between;
+}
 .espaçoentre {
     justify-content: space-around;
 }
@@ -31,7 +34,7 @@
 }
 
 .foto {
-    min-height: 20%;
+    min-height: 10%;
     min-width: auto;
 }
 
@@ -51,4 +54,43 @@
     border-top: 0px;
     border-left: 0px;
     border-right: 0px;
+}
+
+.itemP {
+    height: 30px;
+    width: 30px;
+    background-color: gray;
+    margin: 10px;
+}
+
+.itemPP {
+    height: 15px;
+    width: 15px;
+    background-color: gray;
+    margin: 10px;
+}
+
+.espaçofinal {
+    justify-content: flex-end;
+}
+
+.centralizarsec {
+    align-items: center;
+}
+
+.centralizar {
+    justify-content: center;
+}
+
+.bordaigual {
+    border: 1px solid black; 
+    min-height: 10%;
+    min-width: 20%;
+}
+
+.itemM {
+    height: 100px;
+    width: 100px;
+    background-color: gray;
+    margin: 10px;
 }
