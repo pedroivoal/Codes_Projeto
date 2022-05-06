@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Secular+One&display=swap');
 
+.C{
+    color: #8AD4FF;
+    color: #0D70A8;
+    color: #454A44;
+    color: #1E730B;
+    color: #62D448;
+}
+
 a {
     font-family: 'Roboto Slab', serif;
     text-decoration: none;
