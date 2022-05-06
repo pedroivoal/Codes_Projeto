@@ -60,6 +60,11 @@ header {
     width: auto;
 }
 
+.icone{
+    width: 3.5vh;
+    height: auto;
+}
+
 .pesquisa {
     border: 1px solid black;
     height: 50px;
