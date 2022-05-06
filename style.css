@@ -53,7 +53,12 @@ h1 {
 }
 
 .foto {
-    height: 10vh;
+    height: 30vh;
+    width: auto;
+}
+
+.icone{
+    height: 2.5vh;
     width: auto;
 }
 
@@ -64,8 +69,8 @@ h1 {
 }
 
 .foto_principal {
-    min-width: 80%;
-    min-height: auto;
+    height: 80vh;
+    width: auto;
 }
 
 .linhazinha {
