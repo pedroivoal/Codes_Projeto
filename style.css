@@ -56,7 +56,7 @@ header {
 }
 
 .foto {
-    height: 10vh;
+    height: 30vh;
     width: auto;
 }
 
@@ -72,8 +72,8 @@ header {
 }
 
 .foto_principal {
-    min-width: 70vh;
-    min-height: auto;
+    width: 50vh;
+    height: auto;
 }
 
 .linhazinha {
