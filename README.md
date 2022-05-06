@@ -3,8 +3,7 @@
 ## Autores: 
 - Alexia Pires
 - Ana Laiz Farias
-- Isabella Amorim
 - Diogo Lobo
+- Isabella Amorim
 - Matheus Rodrigues
 - Pedro Ivo Amaral
-
