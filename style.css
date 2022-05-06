@@ -53,8 +53,8 @@ h1 {
 }
 
 .foto {
-    min-height: 10%;
-    min-width: auto;
+    height: 10vh;
+    width: auto;
 }
 
 .pesquisa {
