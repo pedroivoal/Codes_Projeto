@@ -2,8 +2,12 @@
 
 a {
     font-family: 'Roboto Slab', serif;
+    text-decoration: none;
+}
+h1 {
     font-family: 'Secular One', sans-serif;
 }
+
 
 .coluna {
     display: flex;
