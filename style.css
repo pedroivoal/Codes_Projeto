@@ -23,7 +23,10 @@ h1 {
     font-family: 'Secular One', sans-serif;
     text-decoration: none;
 }
-
+h2 { 
+    font-family: 'Roboto Slab', serif;
+    text-decoration: none;
+}
 header {
     background-color: #0D70A8;
 }
