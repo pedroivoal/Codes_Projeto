@@ -95,14 +95,14 @@ header {
 .itemP {
     height: 30px;
     width: 30px;
-    background-color: gray;
+    background-color: #454A44;
     margin: 10px;
 }
 
 .itemPP {
     height: 15px;
     width: 15px;
-    background-color: gray;
+    background-color: #454A44;
     margin: 10px;
 }
 
@@ -130,6 +130,6 @@ header {
 .itemM {
     height: 100px;
     width: 100px;
-    background-color: gray;
+    background-color: #454A44;
     margin: 10px;
 }
