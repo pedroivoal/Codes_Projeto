@@ -26,6 +26,12 @@ h1 {
 h2 { 
     font-family: 'Roboto Slab', serif;
     text-decoration: none;
+    
+}
+
+h3 {
+    font-family: 'Roboto Slab', serif;
+    text-decoration: none;
 }
 header {
     background-color: #0D70A8;
