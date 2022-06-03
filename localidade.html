@@ -4,8 +4,9 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>localidade</title>
-        <link rel="stylesheet" href="reset.css">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/localidade.js"></script>
 	</head>
 
 	<body>
@@ -26,24 +27,16 @@
         </header>
 
         <form class="coluna centralizarsec">
-            
-			<p class="coluna">
-                País <br>
-			    <input type="text" name="loginTest"> <br>
-            </p>
-
             <p class="coluna">
-                Cidade <br>
-			    <input type="text" name="loginTest"> <br>
+                <label>País</label>
+                <input class="pais" type="text" value="" placeholder="Obrigatório">
+                <label>Cidade</label>
+                <input class="cidade" type="text" value="" placeholder="Obrigatório">
+                <label>Bairro</label>
+                <input class="email" type="text" value="" placeholder="Opcional">
             </p>
-
-            <p class="coluna">
-                Bairro <br>
-			    <input type="text" name="loginTest"><br>
-            </p>
-            
-			<a class="borda" href="main.html">PESQUISAR</a>
-		</form>
+            <input type="submit" class="borda" src="main.html" value="PESQUISAR">
+        </form>
 
 	</body>
 </html>
