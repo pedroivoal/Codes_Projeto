@@ -8,6 +8,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
         if(pais.value!='' && cidade.value!=''){
             window.location.href = 'main.html'
+        }else{
+            label = document.querySelectorAll('label')
+            label[0].style.color = 'red'
+            label[1].style.color = 'red'
+            
         }
         e.preventDefault();
     })
