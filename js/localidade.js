@@ -27,13 +27,14 @@ document.addEventListener('DOMContentLoaded', function() {
     enviar.addEventListener('click', function(e){
 
         e.preventDefault();
+        window.location.href = 'main.html'
+    })
 
-        if (enviar.disabled){
-            window.alert('Preencha todos os campos obrigatórios.')
-        }else{
-            window.location.href = 'main.html'
-        }
-
+    p = document.querySelector('.sub')
+    p.addEventListener('click', function(e){
+        e.preventDefault()
+        window.alert('Preencha todos os campos obrigatórios.')
+        
     })
 
 })

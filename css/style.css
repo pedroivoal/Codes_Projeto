@@ -8,6 +8,10 @@
     color: #62D448;
 }
 
+body{
+    min-height: 100vh;
+}
+
 a {
     font-family: 'Roboto Slab', serif;
     text-decoration: none;
