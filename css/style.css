@@ -21,6 +21,8 @@ a {
 p {
     font-family: 'Roboto Slab', serif;
     text-decoration: none;
+    margin: 0.5rem;
+
 }
 
 h1 {
@@ -57,7 +59,7 @@ header {
 
 .alinhamento {
     padding: 1rem;
-    margin: 10px;
+    margin: 0.5rem;
 }
 
 .espaçobetween {
@@ -80,6 +82,8 @@ header {
 .foto {
     height: 30vh;
     width: auto;
+    margin: 0.5rem;
+
 }
 
 .icone{
