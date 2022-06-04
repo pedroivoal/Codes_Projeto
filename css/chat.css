@@ -1,0 +1,87 @@
+main{
+    min-height: 80vh;
+}
+
+h2{
+    font-size: 1rem;
+    color: black;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 0.7rem;
+    color: black;
+    font-weight: lighter;
+    font-style: italic;
+    margin: 0.2rem 0;
+}
+
+.msg-titulo, .msg-titulo-invertido{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.msg-titulo-invertido{
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.msg-panel{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #ffffff;
+}
+
+.msg-resposta, .msg-usuario{
+    display: flex;
+    flex-direction: column;
+    margin: 0.3rem 1rem;
+    padding: 0.2rem;
+    color: rgb(0, 0, 0);
+}
+
+.msg-usuario{
+    align-self: flex-end;
+    max-width: 75vw;
+}
+
+.msg-resposta{
+    align-self: flex-start;
+    max-width: 75vw;
+}
+
+.bolha-usuario{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    background-color:#62D448;
+    border: #62D448 0.2rem solid;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.bolha-resposta{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    background-color: #8AD4FF;
+    border-color: #8AD4FF;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.bloco-envio-msg{
+    display: flex;
+    flex-direction: row;
+    padding: 0.2rem;
+    margin: 0.5rem;
+}
+
+input[type="text"]
+{
+    padding: 0.4rem;
+    font-size: 1rem;
+}

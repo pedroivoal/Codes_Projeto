@@ -6,34 +6,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>chat</title>
+    
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/chat.css">
+
+    <script src="js/chat.js"></script>
 </head>
 
 <body>
     
     <header class="linha borda alinhamento">
-
         <ul class="linha">
             <li>
                 <a href="divida_com_ana.html">
                     <img class="icone" src="imagens/volte.png" alt="botão de menu">
                 </a>
-            
             </li>
             <li class="centro">
                 <h1>CHAT</h1>
             </li> 
         </ul>        
-
     </header>
 
-    <ul class="coluna centralizarsec">
-        <li class="linha espaçofinal">    
-            <input type="text">
-            <button>enviar</button>           
-        </li>
-    </ul>
+    <main class="msg-panel">
+        <section class="msg-resposta">
+            <div class="msg-titulo-invertida">
+                <h2>Ana</h2>
+                <h3>Horário</h3>
+            </div>
+            <div class="bolha-resposta">    
+                <p>Olá, esse é um chat de teste</p>
+            </div>
+        </section>
+        <section class="msg-resposta">
+            <div class="msg-titulo-invertida">
+                <h2>Ana</h2>
+                <h3>Horário</h3>
+            </div>
+            <div class="bolha-resposta">    
+                <p>Escreva uma mensagem ☻</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <ul class="coluna centralizarsec alinhamento">
+            <li class="linha espaçofinal">    
+                <input type="text">
+                <input type="submit">        
+            </li>
+        </ul>
+    </footer>
     
 </body>
 </html>
