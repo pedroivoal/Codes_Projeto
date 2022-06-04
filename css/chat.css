@@ -68,7 +68,7 @@ h3{
     flex-direction: column;
     align-self: flex-start;
     background-color: #8AD4FF;
-    border-color: #8AD4FF;
+    border: #8AD4FF 0.2rem solid;
     padding: 0.5rem;
     border-radius: 0.5rem;
 }
