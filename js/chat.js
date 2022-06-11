@@ -131,6 +131,6 @@ function addWanser(){
 }
 
 resposta = {
-    'oi': 'Olá, bom dia.',
-    'tchau': 'tchau, foi um prazer ☻'
+    'oi': 'Olá, bom dia',
+    'tchau': 'tchau, foi um prazer 😊'
 }
