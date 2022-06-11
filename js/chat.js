@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
         event.preventDefault()
         if(input.value!='')
             addMsg()
-        if (resposta[input.value]!=false){
+        if (resposta[input.value]!=undefined){
             inp = input.value
             setTimeout(addWanser, 2000)
         }
@@ -132,5 +132,7 @@ function addWanser(){
 
 resposta = {
     'oi': 'Olá, bom dia',
-    'tchau': 'tchau, foi um prazer 😊'
+    'Oi': 'Olá, bom dia',
+    'tchau': 'Tchau, foi um prazer 😊',
+    'Tchau': 'Tchau, foi um prazer 😊',
 }
