@@ -28,6 +28,7 @@ document.addEventListener('DOMContentLoaded', function() {
             setTimeout(desaparece0, 3000)
 
         }
+
         e.preventDefault();
     })
 })
