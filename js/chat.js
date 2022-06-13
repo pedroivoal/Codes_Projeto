@@ -19,10 +19,11 @@ document.addEventListener('DOMContentLoaded', function() {
         
         input = document.querySelector('input[type="text"]')
         event.preventDefault()
-        if(input.value!='')
+        if(input.value!=''){
             addMsg()
-        if (resposta[input.value]!=undefined){
-            inp = input.value
+        }
+        inp = input.value.trim().toLowerCase()
+        if (resposta[inp]!=undefined){
             setTimeout(addWanser, 2000)
         }
 
@@ -107,7 +108,6 @@ function addWanser(){
 
     p = document.createElement('p')
     c = ''
-    inp
     wanser = resposta[inp]
     for (i=0; i<wanser.length; i++){
         c += wanser[i]
@@ -132,7 +132,5 @@ function addWanser(){
 
 resposta = {
     'oi': 'Olá, bom dia',
-    'Oi': 'Olá, bom dia',
     'tchau': 'Tchau, foi um prazer 😊',
-    'Tchau': 'Tchau, foi um prazer 😊',
 }
