@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     submit = document.querySelector('input[type="submit"]')
     submit.addEventListener('click', function(event){
-        
+
         input = document.querySelector('input[type="text"]')
         event.preventDefault()
         if(input.value!=''){
@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
         inp = input.value.trim().toLowerCase()
         if (resposta[inp]!=undefined){
             setTimeout(addWanser, 2000)
-        }
+        } //else if (inp.split()[0])
 
     input.value = ''
 
@@ -66,7 +66,7 @@ function addMsg(){
             c += '\n'
         }
     }
-    p.innerHTML = c
+    p.innerHTML = input.value
 
     
     divT.appendChild(h2)
@@ -107,23 +107,14 @@ function addWanser(){
     divBolha.classList.add('bolha-resposta')
 
     p = document.createElement('p')
-    c = ''
-    wanser = resposta[inp]
-    for (i=0; i<wanser.length; i++){
-        c += wanser[i]
-        if (c.length%13 == 0){
-            c += '\n'
-        }
-    }
-    p.innerHTML = c
+    p.innerHTML = resposta[inp]
 
-    
     divT.appendChild(h2)
     divT.appendChild(h3)
     section.appendChild(divT)
 
     divBolha.appendChild(p)
-    section.appendChild(divBolha)    
+    section.appendChild(divBolha)
 
     main = document.querySelector('main')
     main.appendChild(section)
@@ -132,5 +123,9 @@ function addWanser(){
 
 resposta = {
     'oi': 'Olá, bom dia',
+    'oi, bom dia': 'Olá, bom dia',
+    'ola': 'Olá, bom dia',
+    'tudo bem?': 'Tudo sim. Espero que com você também. Você tem interresse em alugar o ap?',
+    'obrigado': 'Nada, tenha um bom dia',
     'tchau': 'Tchau, foi um prazer 😊',
 }
