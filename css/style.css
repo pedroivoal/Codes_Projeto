@@ -12,6 +12,7 @@ body{
     min-height: 100vh;
 }
 
+
 a {
     font-family: 'Roboto Slab', serif;
     text-decoration: none;
@@ -28,7 +29,7 @@ p {
 h1 {
     font-family: 'Secular One', sans-serif;
     text-decoration: none;
-    font-size: 1.4rem;
+    /* font-size: 1.4rem; */
 }
 h2 { 
     font-family: 'Roboto Slab', serif;
@@ -54,6 +55,11 @@ header {
     flex-direction: row;
 }
 
+.margem{
+    padding: 1rem;
+    margin: 1rem;
+}
+
 .borda {
     border: 1px solid black;
 }
@@ -76,6 +82,9 @@ header {
 }
 
 .centro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     right: 50%;
 }

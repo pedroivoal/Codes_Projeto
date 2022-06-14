@@ -16,6 +16,13 @@ h3{
     margin: 0.2rem 0;
 }
 
+footer{
+    position: absolute;
+	bottom: 0;
+    /* position: fixed; */
+    /* margin-bottom: 0.5rem; */
+}
+
 .msg-titulo, .msg-titulo-invertido{
     display: flex;
     flex-direction: column;
