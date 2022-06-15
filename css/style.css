@@ -22,8 +22,8 @@ a {
 p {
     font-family: 'Roboto Slab', serif;
     text-decoration: none;
+    text-align: left;
     margin: 0.5rem;
-
 }
 
 h1 {
@@ -34,12 +34,14 @@ h1 {
 h2 { 
     font-family: 'Roboto Slab', serif;
     text-decoration: none;
+    margin: 0.5rem;
     
 }
 
 h3 {
     font-family: 'Roboto Slab', serif;
     text-decoration: none;
+    margin: 0.5rem;
 }
 header {
     background-color: #0D70A8;
@@ -62,6 +64,7 @@ header {
 
 .borda {
     border: 1px solid black;
+
 }
 
 .alinhamento {
@@ -91,14 +94,14 @@ header {
 
 .foto {
     height: 30vh;
-    width: auto;
-    margin: 0.5rem;
+    width: 25vh;
+    margin: 0.05rem;
 
 }
 
 .icone{
     width: 7vw;
-    height: 4vh;
+    height: 2vh;
 }
 
 .pesquisa {
@@ -139,6 +142,7 @@ header {
 
 .centralizarsec {
     align-items: center;
+    justify-content: center
 }
 
 .centralizar {
