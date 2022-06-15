@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Secular+One&display=swap");
+
+.C {
+  color: #8ad4ff;
+  color: #0d70a8;
+  color: #454a44;
+  color: #1e730b;
+  color: #62d448;
+}
+
+body {
+  min-height: 100vh;
+}
+
+a {
+  font-family: "Roboto Slab", serif;
+  text-decoration: none;
+  color: #000;
+}
+
+p {
+  font-family: "Roboto Slab", serif;
+  text-decoration: none;
+  text-align: left;
+}
+
+h1 {
+  font-family: "Secular One", sans-serif;
+  text-decoration: none;
+  /* font-size: 1.4rem; */
+}
+h2 {
+  font-family: "Roboto Slab", serif;
+  text-decoration: none;
+  margin: 0.5rem;
+}
+
+h3 {
+  font-family: "Roboto Slab", serif;
+  text-decoration: none;
+  margin: 0.5rem;
+}
+header {
+  background-color: #0d70a8;
+}
+
+.coluna {
+  display: flex;
+  flex-direction: column;
+}
+
+.linha {
+  display: flex;
+  flex-direction: row;
+}
+
+.margem {
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.borda {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+}
+
+.alinhamento {
+  padding: 1rem;
+}
+
+.espaçobetween {
+  justify-content: space-between;
+}
+
+.espaçoentre {
+  justify-content: space-around;
+}
+
+.espaçoigual {
+  justify-content: space-evenly;
+}
+
+.centro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 50%;
+}
+
+.foto {
+  height: 30vh;
+  width: 25vh;
+  margin: 0.05rem;
+}
+
+.icone {
+  width: 7vw;
+  height: 2vh;
+}
+
+.pesquisa {
+  border: 1px solid black;
+  height: 50px;
+  width: 500px;
+}
+
+.foto_principal {
+  width: 50vh;
+  height: auto;
+}
+
+.linhazinha {
+  border: 1px solid black;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+
+.itemP {
+  height: 30px;
+  width: 30px;
+  background-color: #454a44;
+  margin: 10px;
+}
+
+.itemPP {
+  height: 15px;
+  width: 15px;
+  background-color: #454a44;
+  margin: 10px;
+}
+
+.espaçofinal {
+  justify-content: flex-end;
+}
+
+.centralizarsec {
+  align-items: center;
+  justify-content: center;
+}
+
+.centralizar {
+  justify-content: center;
+}
+
+.bordaigual {
+  border: 1px solid black;
+  min-height: 10%;
+  min-width: 20%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.itemM {
+  height: 100px;
+  width: 100px;
+  background-color: #454a44;
+  margin: 10px;
+}
+
+input {
+  display: block;
+  margin-bottom: 0.9rem;
+  padding: 0.1rem;
+}
+
+label {
+  margin-top: 0.3rem;
+  margin-bottom: 0.1rem;
+}
+
+.submit {
+  margin-top: 1rem;
+}
+.iniciar {
+  align-items: flex-start;
+}
+
+.linha {
+  padding: 10px;
+  width: 100%;
+}
