@@ -175,3 +175,6 @@ label{
 .submit{
     margin-top: 1rem;
 }
+.iniciar{
+    justify-content: flex-start;
+}
